@@ -1,0 +1,108 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    background-color: #F0F2F5;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-area{
+    width: 50%;
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-area{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    color: #2B77F2;
+    font-size: 50px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+.explanation{
+    font-size: 30px;
+    margin-top: 0%;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.face-form{
+    width: 450px;
+    height: 450px;
+    border: 1px solid #CED4DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.formboxes{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+    background-color: white;
+    margin: 10px;
+}
+
+.login_button{
+    margin: 10px;
+    width: 92%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+    background-color: #2B77F2;
+    font-size: 20px;
+    color: white;
+}
+
+.button2{
+    width: 92%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+    margin: 10px;
+    background-color: white;
+    font-size: 20px;
+    color: #498FFE;
+}
+
+#new_account{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #28A745;
+}
+
+.create_a_page{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
